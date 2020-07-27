@@ -29,7 +29,7 @@ add your new provider to the providers array:
 ```
 'providers' => [
     // ...
-   	\Defaultlaravelsettings\Settings\App\Providers\SettingServiceProvider::class
+   	\MAHARSHIABI\Settings\App\Providers\SettingServiceProvider::class
     // ...
   ],
 ```
@@ -39,7 +39,7 @@ add your new provider to the providers array:
 ```
 'aliases' => [
 	// ...
-	'Settings' => \Defaultlaravelsettings\Settings\App\Facades\Setting::class
+	'Settings' => \MAHARSHIABI\Settings\App\Facades\Setting::class
     // ...
 ],
 ```

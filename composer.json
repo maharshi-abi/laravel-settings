@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Defaultlaravelsettings\\Settings\\": "src/"
+      "MAHARSHIABI\\Settings\\": "src/"
     }
   },
   "minimum-stability": "stable",
@@ -24,10 +24,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Defaultlaravelsettings\\Settings\\App\\Providers\\SettingServiceProvider"
+        "MAHARSHIABI\\Settings\\App\\Providers\\SettingServiceProvider"
       ],
       "aliases": {
-        "Settings": "Defaultlaravelsettings\\Settings\\App\\Facades\\Setting"
+        "Settings": "MAHARSHIABI\\Settings\\App\\Facades\\Setting"
       }
     }
   }
