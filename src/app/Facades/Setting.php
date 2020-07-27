@@ -1,9 +1,9 @@
 <?php
 
-namespace Defaultlaravelsettings\Settings\App\Facades;
+namespace MAHARSHIABI\Settings\App\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Defaultlaravelsettings\Settings\App\SettingsHelper;
+use MAHARSHIABI\Settings\App\SettingsHelper;
 
 class Setting extends Facade
 {

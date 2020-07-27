@@ -1,12 +1,12 @@
 <?php
 
-namespace Defaultlaravelsettings\Settings\App\Http\Controllers;
+namespace MAHARSHIABI\Settings\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
-use Defaultlaravelsettings\Settings\App\Http\Requests\SettingRequest;
-use Defaultlaravelsettings\Settings\App\Setting;
+use MAHARSHIABI\Settings\App\Http\Requests\SettingRequest;
+use MAHARSHIABI\Settings\App\Setting;
 
 class SettingsController extends Controller
 {

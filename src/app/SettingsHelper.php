@@ -1,6 +1,6 @@
 <?php
 
-namespace Defaultlaravelsettings\Settings\App;
+namespace MAHARSHIABI\Settings\App;
 
 class SettingsHelper
 {
