@@ -1,6 +1,6 @@
 <?php
 
-namespace MAHARSHIABI\Settings\App\Http\Requests;
+namespace Defaultlaravelsettings\Settings\App\Http\Requests;
 
 
 use Illuminate\Foundation\Http\FormRequest;

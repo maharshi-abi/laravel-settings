@@ -19,7 +19,7 @@ Add the following to your composer file.
 
 or run the following command:
 ```
-composer require maharshiabi/laravel-settings
+composer require maharshiabi/laravel-settings --dev
 ```
 
 2) config/app.php [no need for this step in laravel 5.5 because of packages auto discovery feature]
@@ -29,7 +29,7 @@ add your new provider to the providers array:
 ```
 'providers' => [
     // ...
-   	\MAHARSHIABI\Settings\App\Providers\SettingServiceProvider::class
+   	\Defaultlaravelsettings\Settings\App\Providers\SettingServiceProvider::class
     // ...
   ],
 ```
@@ -39,7 +39,7 @@ add your new provider to the providers array:
 ```
 'aliases' => [
 	// ...
-	'Settings' => \MAHARSHIABI\Settings\App\Facades\Setting::class
+	'Settings' => \Defaultlaravelsettings\Settings\App\Facades\Setting::class
     // ...
 ],
 ```
@@ -147,11 +147,5 @@ config('settings.upload_path') . '/' . $value;
 such as: 
 
 uploads/settings/site_logo.png
-
-## demo
-
-the demo site:
-
-[http://settings.esolution-inc.com/](http://settings.esolution-inc.com/)
 
 ===================================

@@ -1,6 +1,6 @@
 <?php
 
-namespace MAHARSHIABI\Settings\App\Providers;
+namespace Defaultlaravelsettings\Settings\App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
